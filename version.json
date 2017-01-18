@@ -1,0 +1,32 @@
+{
+  "_help": "This is the version file storing the current version of all tracked js/css files.\n 'style_config' is the xml file path to do the preprocessing \n 'type' specifies what type of file it is and where the root folder for it is. \n 'path' is the relative path for the file to the type folder.\n 'version' is the correct version to use",
+  "auto_increment": false,
+  "clean": true,
+  "config": [
+    {
+      "framework": "magento",
+      "style_config": "app/design/frontend/royal/default/layout/local.xml",
+      "roots": {
+        "js": "js/",
+        "skin_js": "skin/frontend/royal/default/",
+        "skin_css": "skin/frontend/royal/default/"
+      },
+      "files": [
+        {
+          "name": "bodyend-custom",
+          "suffix": "js",
+          "type": "js",
+          "path": "et/",
+          "version": "0.0.0"
+        },
+        {
+          "name": "custom",
+          "suffix": "js",
+          "type": "skin_js",
+          "path": "css/elegento/royal/",
+          "version": "0.0.0"
+        }
+      ]
+    }
+  ]
+}
